@@ -5,7 +5,7 @@ BookBot is my first project!
 ## Requirements
 
 - Python 3.x
-- A book in `.txt` format. You can download a sample book from [Frankenstein](https://raw.githubusercontent.com/asweigart/codebreaker/master/frankenstein.txt).
+- A book in `.txt` format. You can download a sample book [here (Frankenstein)](https://raw.githubusercontent.com/asweigart/codebreaker/master/frankenstein.txt).
 
 ## Installation
 
@@ -15,7 +15,7 @@ BookBot is my first project!
 	cd bookbot
 	```
 
-2. **Create a folder inside bookbot folder named Books and download the book there:**
+2. **Create a folder inside bookbot folder named books and download the file there:**
 	```sh
 	mkdir books
     cd books
