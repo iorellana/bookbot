@@ -11,7 +11,7 @@ BookBot is my first project!
 
 1. **Clone the repository:**
 	```sh
-	git clone https://github.com/yourusername/bookbot.git
+	git clone https://github.com/iorellana/bookbot.git
 	cd bookbot
 	```
 
@@ -24,7 +24,7 @@ BookBot is my first project!
 
 ## Usage
 
-1. **Run the script:**
+1. **Run the script and follow instructions:**
 	```sh
 	python3 main.py
 	```
