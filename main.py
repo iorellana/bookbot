@@ -1,5 +1,12 @@
 def main():
-    book_path = 'books/frankenstein.txt'
+    # book_path = 'books/frankenstein.txt'
+    # add input to the book_path variable
+    book_path = input("Enter the relative path to the book: ")
+    # if the book doesn't exist, print an error message and return
+    if not is_valid_path(book_path):
+        print("The book path is invalid")
+        return
+    
     text = get_book_text(book_path)
     print(f"--- Begin report of {book_path} ---")
 
@@ -31,5 +38,13 @@ def get_num_characters(text):
         else:
             chars[c] = 1
     return chars
+
+def is_valid_path(path):
+    try:
+        with open(path) as f:
+            pass
+    except FileNotFoundError:
+        return False
+    return True
 
 main()
